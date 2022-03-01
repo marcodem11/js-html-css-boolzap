@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    height: 100vh;
+    display: flex;
+}
+
+.side-bar{
+    width: 30%;
+    min-width: 270px;
+}
+
+.chat{
+    flex-grow: 1;
+}
