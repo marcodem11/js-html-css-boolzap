@@ -9,11 +9,24 @@
     display: flex;
 }
 
-.side-bar{
+.sidebar{
     width: 30%;
     min-width: 270px;
 }
 
+.sidebar-header{
+    height: 60px;
+}
+
+.toolbar{
+    background-color: var(--app-gray);
+    padding: var(--app-py) var(--app-px);
+    display: flex;
+    align-items: center;
+}
+
+
 .chat{
     flex-grow: 1;
+    background-color: white;
 }
